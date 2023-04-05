@@ -1,0 +1,591 @@
+<html>
+<head>
+<title>
+	friend
+</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scaleble=no">
+
+<link rel="stylesheet" href="bootstrap-3.3.6/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>
+
+<script src="jsfile.js"></script>
+       
+		
+</head>
+
+<header>
+
+
+
+					<div class='headereddiv page-header'>
+					<p style="color:white; font-size:500%;"><b>LCF</b></p><h2 style="color:pink;">LoveComFriend</h2>>
+					</div>
+			
+					</header>
+
+
+		<nav class="navbar  navbar-expand-sm bg-dark navbar-dark" style="position:sticky; top:0px;">
+                     <div class="navbar-header">
+                         <p class="navbar-brand"><a  href="apple.html"><img src="images/logo.jpg" class="img-circle position-relative" alt="logo" style="width:110px;height: 60px; " ></a></p>
+                     </div>
+                     <div class="container-fluid">
+                         <ul class="nav navbar-nav">
+                             <li class="active" id="h"><a href="#heart">Heart</a></li>
+                             <li><a href="#education"id="e" data-toggle="tab">Education</a></li>
+                             <li><a href="#friendship" id="f" data-toggle="tab">Friendship</a></li>
+                             <li><a href="#Caring"id="c" data-toggle="tab">Caring</a></li>
+                             <li><a href="#Love"id="l" data-toggle="tab">Love</a></li>
+                         </ul>
+                     </div>
+                    </nav>
+
+<body>
+<button class="btn bg-primary btn-expand-sm " id='back' style="position:sticky; top:12%;">
+BACK
+</button>
+<script type="text/javascript" src="jquery-3.6.0.min.js">
+        </script>
+		<script>
+			$(function(){
+			
+			$("#back").click(
+			function(){
+			$("#fs").show(1200);
+			});
+			
+			$("#h").click(
+			function(){
+			$("#fs").hide(1200);
+			$("#love").hide(1200);
+			$("#caring").hide(1200);
+			$("#education").hide(1200);
+			$("#friendship").hide(1200);
+			$("#heart").show();
+			});
+
+			$("#l").click(
+			function(){
+			$("#fs").hide(1200);
+			$("#heart").hide(1200);
+			$("#caring").hide(1200);
+			$("#education").hide(1200);
+			$("#friendship").hide(1200);
+			$("#love").show();
+			});
+
+			$("#e").click(
+			function(){
+			$("#fs").hide(1200);
+			$("#love").hide(1200);
+			$("#caring").hide(1200);
+			$("#heart").hide(1200);
+			$("#friendship").hide(1200);
+			$("#education").show();
+			});
+
+			$("#f").click(
+			function(){
+			$("#fs").hide(1200);
+			$("#love").hide(1200);
+			$("#caring").hide(1200);
+			$("#education").hide(1200);
+			$("#heart").hide(1200);
+			$("#friendship").show();
+			});
+
+			$("#c").click(
+			function(){
+			$("#fs").hide(1200);
+			$("#love").hide(1200);
+			$("#heart").hide(1200);
+			$("#education").hide(1200);
+			$("#friendship").hide(1200);
+			$("#caring").show();
+			});
+
+
+                    $(".heart").click(function(){
+                        $("#heart").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".education").click(function(){
+                        $("#education").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".friendship").click(function(){
+                        $("#friendship").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".caring").click(function(){
+                        $("#caring").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".love").click(function(){
+                        $("#love").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".opinion").click(function(){
+                        $("#opinion").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".character").click(function(){
+                        $("#character").fadeIn();
+						$("#fs").hide();
+                    });
+					
+					$(".precidence").click(function(){
+                        $("#precidence").fadeIn();
+						$("#fs").hide();
+                    });
+                });
+				</script>
+
+<link rel="stylesheet" href="cssfile1.css">
+					<div class="fullset  rows " id="fs" style="margin-top:20px;" >
+					<div class='phones container grid-container'
+					name='container'>
+					<div class='row margin-auto '>
+					<div class='item col heart'id="item" value="apple">
+					<img src="images/heart.jpg" alt='mobiles'>
+					<h3>
+					heart
+					</h3>
+					<h5 id='p1'>positivity</h5>
+					<h5 id='p4'>negativity</h5>
+					</div>
+										<div class='item col education'>
+					<img src="images/style.jpg" alt='mobiles'>
+					<h3>
+					Education
+					</h3>
+					<p id='p1'>concentration</p>
+					<p id='p4'>Divertion</p>
+					</div>
+										<div class='item col friendship'>
+					<img src="images/friends.jpg" alt='mobiles'>
+					<h3>
+					Friendship
+					</h3>
+					<p id='p1'>Genunity</p>
+					<p id='p4'>Suggession</p>
+					</div>
+										<div class='item col caring'>
+					<img src="images/style2.jpg" alt='mobiles'>
+					<h3>
+					Caring
+					</h3>
+					<p id='p1'>Limits</p>
+					<p id='p4'>Awareness</p>
+					</div>
+										<div class='item col love'>
+					<img src="images/love.jpg" alt='mobiles'>
+					<h3>
+					LOVE
+					</h3>
+					<p id='p1'>Count</p>
+					<p id='p4'>truth</p>
+					</div>
+										<div class='item col opinion'>
+					<img src="images/style3.jpg" alt='mobiles'>
+					<h3>
+						opinion
+					</h3>
+					<h6 id='p1'>Weakness</h6>
+					<p id='p4'>Strength</p>
+					</div>
+										<div class='item col character'>
+					<img src="images/logo.jpg" alt='mobiles'>
+					<h3>
+					character
+					</h3>
+					<p id='p1'>Comment</p>
+					<p id='p4'>Suggession</p>
+					</div>
+										<div class='item col precidence'>
+					<img src="images/heart.jpg" alt='mobiles'>
+					<h3>
+					precidence
+					</h3>
+					<p id='p1'>its optional(comment your view on me)</p>
+					<p id='p4'>in my view</p>
+					</div>
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>smile please</p>
+					</div>
+					</div>
+					<div class="asided">
+					<h1>GREETING<span class='badge-success badge-pill'>143</span></h1>
+					<h3>
+					<ol>
+					<option>TAKE CARE</option>
+					<option>HAVE A BRIGHT FUTURE</option>
+					<option>FINALLY LOVE YOU FOR EVER</option>
+					</ol>
+					</h3>
+				</div>
+					
+					
+					
+					
+					<div class="fullset rows"style="margin-top:20px;display:none;"id="heart" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+					<a href="watches.html"style="color:#8950ff;">
+					<img src="images/heart.jpg" alt='mobiles'>
+					<h3>
+					heart
+					</h3>
+					<p id='p1'>you are always good hearted person but some times i observed that ,you are in depression mode.. this is not suited for you. try to be happy dear</p>
+					</a>
+					</div>
+										<div class='item col '>
+					<a href="rings.html"style="color:#8950ff;">
+					<img src="images/style.jpg" alt='mobiles'>
+					<h3>
+					positivity
+					</h3>
+					<p id='p1'>your smile without any wanted ideas,makes you attractive</p>
+					</a>
+					</div>
+										<div class='item col '>
+					<a href="makeupbox.html"style="color:#8950ff;">
+					<img src="images/style2.jpg" alt='mobiles'>
+					<h3>
+					negativity
+					</h3>
+					<p id='p1'>don't trust any one blinedly</p>
+					</a>
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>HEART</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+					
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="education" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+				
+					<img src="images/friends.jpg" alt='mobiles'>
+					<h3>
+					Education
+					</h3>
+					<p id='p1'>i think you are perfect in your studies but don't try to be in book knowledge only ,try to think beyond book knowledge ,i heared that you are not going to help anyone in the exam hall.it is a good thing,and don't think so what they feel okay..</p>
+				
+					</div>
+										<div class='item col '>
+				
+					<img src="images/IMG-20230405-WA0011.jpg" alt='mobiles'>
+					<h3>
+						concentration level
+					</h3>
+					<p id='p1'>you got a laptop right,try to concentrate on your pratice along with your core subjects too. </p>
+				
+					</div>
+										<div class='item col '>
+				
+					<img src="images/relaxed.jpg" alt='mobiles'>
+					<h3>
+					Divertion
+					</h3>
+					<p id='p1'>may be you are struggling for something,but be brave yar and try to concentrate on your studies okay</p>
+				
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>EDUCATION</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="caring" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+				
+					<img src="images/style2.jpg" alt='mobiles'>
+					<h3>
+					Caring
+					</h3>
+					<p id='p1'> your caring nature impress others to make friendship with you. always maintain it man.. </p>
+				
+					</div>
+										<div class='item col '>
+				
+					<img src="images/style3.jpg" alt='mobiles'>
+					<h3>
+					limits
+					</h3>
+					<p id='p1'>don't care about the silly things </p>
+					<p id='p4'>over caring also makes you unhappy (experienced)</p>
+				
+					</div>
+										<div class='item col '>
+				
+					<img src="images/logo.jpg" alt='mobiles'>
+					<h3>
+					awarenece
+					</h3>
+					<p id='p1'>may be kanning fellows try to use your goodness</p>
+					<p id='p4'>be aware of such persons too..</p>
+				
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>CARING</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="love" >					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+									<img src="images/love.jpg" alt='mobiles'>
+					<h3>
+					love
+					</h3>
+					<p id='p1'> love is a feeling which belongs to the heart not to the mind.if you have any intrest on other person don't try to show up. if it is true love they can understand without any conversation</p>
+				
+					</div>
+										<div class='item col '>
+					
+					<img src="images/relaxed.jpg" alt='mobiles'>
+					<h3>
+					count
+					</h3>
+					<p id='p1'>you have infinity lovers</p>
+					<p id='p4'>(just joking...)</p>
+					
+					</div>
+										<div class='item col 'style="position: sticky;margin:20px;">
+					
+					<img src="images/heart.jpg" alt='mobiles'>
+					<h3>
+					truth
+					</h3>
+					<p id='p1'>true love don't want any physical form to express
+					<p id='p4'>true love never need a bond between lovers</p>
+					<p id='p4'>marriage is not the final point of love</p>
+					
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>LOVE</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="opinion" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+					
+					<img src="images/style3.jpg" alt='mobiles'>
+					<h3>
+					opinion
+					</h3>
+					<p id='p1'>try to improve your skills not your emotions</p>
+					
+					</div>
+										<div class='item col '>
+					<a href="rings.html"style="color:#8950ff;">
+					<img src="images/style2.jpg" alt='mobiles'>
+					<h3>
+					weakness
+					</h3>
+					<p id='p1'>emotional thinking also makes you fall down in your carrier</p>
+					</a>
+					</div>
+					<div class='item col '>
+						<img src="images/relaxed.jpg" alt='mobiles'>
+					<h3>
+					strength
+					</h3>
+					<p id='p1'>think big with enjoyment too.because only concentrating on goals may not give efficient result man..</p>
+					
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>OPINION</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="character" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+					
+					<img src="images/style.jpg" alt='mobiles'>
+					<h3>
+					character
+					</h3>
+					<p id='p1'>I am the person who have a lucky chance,because i got good character person as a friend</p>
+					
+					</div>
+										<div class='item col '>
+					
+					<img src="images/style2.jpg" alt='mobiles'>
+					<h3>
+					comment
+					</h3>
+					<p id='p1'>no words to comment on your character dear</p>
+					<p id='p4'>Be like how you are</p>
+					
+					</div>
+										<div class='item col '>
+					
+					<img src="images/IMG-20230405-WA0011.jpg" alt='mobiles'>
+					<h3>
+					suggession
+					</h3>
+					<p id='p1'>try to improve your personal skills for the professional life..</p>
+					
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>CHARACTER</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="precidence" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+					
+					<img src="images/logo.jpg" alt='mobiles'>
+					<h3>
+					precidence
+					</h3>
+					<p id='p1'>always your priority should be given to your carrier not for anyone or for any thing okay..</p>
+					
+					</div>
+										<div class='item col '>
+					
+					<img src="images/IMG-20230405-WA0011.jpg" alt='mobiles'>
+					<h3>
+					its optional(comment your view on me)
+					</h3>
+					<p id='p1'>it may be last</p>
+					
+					</div>
+										<div class='item col '>
+					
+					<img src="images/logo.jpg" alt='mobiles'>
+					<h3>
+					in my view
+					</h3>
+					<p id='p1'>your priority in my life is always in great place because you also know why i am saying this </p>
+	
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;">
+					<p>PRECIDENCE</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+<div class="fullset rows"style="margin-top:20px;display:none;"id="friendship" >
+					<div class='am1 container grid-container'>
+					<div class='row margin-auto '>
+					<div class='phone col-12 '>
+					<img src="images/friends.jpg" alt='mobiles'>
+					<h3>
+					Friendship
+					</h3>
+					<p id='p1'>Don't trust anyone blindly try to think of your self. may be they may lie on you behind yourself</p>
+					</div>
+										<div class='item col '>
+		
+					<img src="images/heart.jpg" alt='mobiles'>
+					<h3>
+					genunity
+					</h3>
+					<p id='p1'>you are good friend for ever and never change</p>
+				
+					</div>
+										<div class='item col '>
+
+					<img src="images/IMG-20230405-WA0011.jpg" alt='mobiles'>
+					<h3>
+					suggession
+					</h3>
+					<p id='p1'>Have good memories with your friends</p>
+					
+					</div>
+										
+		
+					</div>
+					</div>
+					<div style=" font-size:500%;
+					">
+					<p>Friendship</p>
+					</div>
+					</div>
+					</div>
+					
+					</div>
+					
+</body>
+</html>
+					
+					
+					
